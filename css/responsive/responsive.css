@@ -1,0 +1,201 @@
+@media screen and (max-width: 1024px) {
+    .best2 .overlay2 {
+        display: none;
+      }
+      .landing {
+        height: 700px;
+      }
+      .images {
+        width: 100%;
+      }
+      .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: -70%;
+        top: 1200px;
+      }
+}
+@media screen and (max-width: 992px) {
+  .best2 .overlay2 {
+    display: none;
+  }
+  .landing {
+    height: 700px;
+  }
+  .images {
+    width: 100%;
+  }
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -70%;
+    top: 1200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .navbar .navbar-nav {
+    background-color: white !important;
+  }
+  .header .navbar .about {
+    background-color: white;
+    padding: 10px;
+  }
+  .header .navbar .navbar-nav .nav-link {
+    color: black;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  .overlay {
+    display: none;
+  }
+  .best {
+    padding: 0 10px;
+  }
+  .best .bestText {
+    margin-top: 30px;
+  }
+  .best2 .overlay2 {
+    display: none;
+  }
+  .images {
+    width: 100%;
+    margin-top: 0;
+    margin: auto;
+  }
+  .images img {
+    max-width: 140px;
+  }
+  .platform .platformText h4 {
+    font-size: 40px;
+  }
+  .market .marketText h5 {
+    font-size: 22px;
+  }
+  .our .grow .ourText2 h6 {
+    font-size: 23px;
+  }
+  .our .grow .carousel-item h6 {
+    font-size: 20px;
+  }
+  .our .grow .carousel-item .parag {
+    font-size: 12px;
+  }
+  footer .study input {
+    width: 100%;
+  }
+  footer .study .sub {
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header .navbar .navbar-nav {
+    background-color: white !important;
+  }
+  .header .navbar .about {
+    background-color: white;
+    padding: 10px;
+  }
+  .header .navbar .navbar-nav .nav-link {
+    color: black;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  .landing {
+    height: 650px;
+    background-position: left;
+  }
+  .landing .landingText p {
+    font-size: 15px;
+  }
+  .landing .landingText h1 {
+    font-size: 32px;
+  }
+  .landing .landingText .lorem {
+    font-size: 12px;
+  }
+  .landing .landingText .about {
+    padding: 8px 40px;
+    margin-bottom: 20px;
+  }
+  .images {
+    width: 50%;
+    margin-top: 0;
+    margin: auto;
+  }
+  .images img {
+    max-width: 160px;
+  }
+  .overlay {
+    display: none;
+  }
+  .best {
+    padding: 0 10px;
+  }
+  .best .bestText {
+    margin-top: 30px;
+  }
+  .best2 .overlay2 {
+    display: none;
+  }
+  .platform .platformText p {
+    font-size: 14px;
+  }
+  .platform .platformText h4 {
+    font-size: 30px;
+  }
+  .platform .platformText .platform_parag {
+    font-size: 12px;
+  }
+  .best2 .bestText {
+    margin-bottom: 30px;
+  }
+  .market .marketText h5 {
+    font-size: 24px;
+  }
+  .business .businessText {
+    margin-bottom: 30px;
+  }
+  .market .marketText {
+    margin-bottom: 50px;
+  }
+  .our .ourText h6 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .our .counter .counterText {
+    margin-bottom: 10px;
+  }
+  .our .counter .counterText span {
+    font-size: 26px;
+  }
+  .our .grow .carousel-item h6 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .our .grow .carousel-item .parag {
+    font-size: 12px;
+  }
+  .our .grow .ourText2 {
+    margin-top: 50px;
+  }
+  .our .grow .ourText2 h6 {
+    font-size: 23px;
+  }
+  footer .study {
+    margin-bottom: 20px;
+  }
+  footer .study input {
+    width: 100%;
+  }
+  footer .study .sub {
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    margin-left: 0px;
+  }
+}

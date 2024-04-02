@@ -1,0 +1,22 @@
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 60px 0;
+}
+footer .study img {
+  max-width: 150px;
+}
+footer .study input {
+  border-radius: 20px;
+  width: 60%;
+  padding: 10px 20px;
+  border: none;
+}
+footer .study .sub {
+  background-color: #ff6057;
+  padding: 8px 60px;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: white;
+  margin-left: -100px;
+}

@@ -1,0 +1,196 @@
+/* landing style start */
+
+.header {
+  /* to make header overlap in landing section*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.landing {
+  height: 100vh;
+  background-image: url(../../img/Sans\ titre-1.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.landing .landingText p {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.landing .landingText h1 {
+  font-family: PoppinsBold;
+  font-size: 40px;
+}
+.landing .landingText .lorem {
+  font-size: 14px;
+}
+.landing .landingText .about {
+  background-color: white;
+  color: #ff6057;
+  padding: 12px 47px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: none;
+}
+/* landing style end */
+
+/* branding style start */
+.images {
+  width: 90%;
+  margin-top: -70px;
+}
+.images img {
+  max-width: 190px;
+}
+/* branding style end */
+
+/* business style start */
+.business .iconCard .iconimg {
+  background-color: #ff6057;
+  width: fit-content;
+  padding: 22px 20px;
+  border-radius: 50%;
+}
+.business .iconCard .bootstrap {
+  padding: 20px 20px;
+  background-color: #36c5ad;
+}
+.business .iconCard .material {
+  padding: 21px 20px;
+  background-color: #cb4bf8;
+}
+.business .iconCard .bag {
+  padding: 21px 20px;
+  background-color: #56e65b;
+}
+.business .iconCard .iconimg img {
+  max-width: 20px;
+}
+.business .iconCard .iconText h3 {
+  font-size: 14px;
+  position: relative;
+}
+.business .iconCard .iconText h3::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #ff6057;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.business .iconCard .iconText p {
+  font-size: 12px;
+  color: #8f8f8f;
+  line-height: 2;
+}
+/* business style end */
+
+/* platform style style */
+.platform .platformText p {
+  color: #8f8f8f;
+  font-size: 18px;
+}
+.platform .platformText h4 {
+  font-size: 50px;
+}
+.platform .platformText .platform_parag {
+  font-size: 14px;
+  line-height: 1.9;
+}
+.platform .carousel .carousel-indicators {
+  bottom: -75px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #8f8f8f;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  background-color: #ff6057;
+}
+/* best2 sec style start */
+.best2 {
+  position: relative;
+}
+.best2 .overlay2 {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  right: -70%;
+  top: 750px;
+  z-index: -1;
+  transform: rotate(165deg);
+}
+/* best2 sec style end */
+
+/* market sec style start */
+.market .marketText h5 {
+  font-size: 35px;
+}
+.market .btn {
+  padding: 8px 45px;
+  color: white;
+}
+.market .marketcard .number {
+  position: relative;
+}
+.market .marketcard .number::after {
+  content: "";
+  width: 3px;
+  height: 70px;
+  background-color: #8f8f8f;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  border-radius: 10px;
+}
+/* market sec style end */
+
+/* our sec style end */
+.our .ourText h6 {
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+.our .counter .counterText span {
+  font-size: 46px;
+  color: #ff6057;
+  font-family: PoppinsBold;
+}
+.our .counter .counterText p {
+  font-family: PoppinsBold;
+}
+.our .grow .carousel .carousel-indicators {
+  bottom: -80px;
+}
+.our .grow .carousel-item h6 {
+  font-size: 24px;
+}
+.our .grow .carousel-item .parag1 {
+  font-family: PoppinsBold;
+  font-size: 16px;
+}
+.our .grow .carousel {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+.our .grow .star span {
+  color: #cb48f9;
+  margin-inline-end: 5px;
+}
+.our .grow .ourText2 h6 {
+  font-size: 30px;
+}
+.our .grow .ourText2 .btn {
+  padding: 7px 50px;
+  color: white;
+}

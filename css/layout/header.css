@@ -1,0 +1,27 @@
+.header .navbar .navbar-nav {
+  padding-inline-end: 60px;
+}
+.header .navbar .navbar-nav .nav-link {
+  color: white;
+  font-size: 14px;
+  margin-inline-end: 10px;
+}
+.header .navbar .logo a {
+  font-family: PoppinsBold;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.header .navbar .logo a span {
+  font-size: 32px;
+  margin: 0 5px;
+  position: relative;
+}
+.header .navbar .logo a span::after {
+  content: "";
+  height: 2px;
+  width: 10px;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+}

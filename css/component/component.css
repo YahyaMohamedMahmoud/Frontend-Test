@@ -1,0 +1,69 @@
+.overlay {
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  left: -65%;
+  top: 950px;
+  z-index: -1;
+  transform: rotate(-10deg);
+}
+
+/* heading dry in 3 sec in home page */
+.the {
+    position: relative;
+  }
+  .the::after {
+    content: "";
+    width: 65px;
+    height: 4px;
+    background-color: #ff6057;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+  }
+  .parag {
+    color: #8f8f8f;
+    font-size: 13px;
+    line-height: 1.9;
+  }
+.link{
+    color: #ff6057;
+  }
+
+
+/* btn in header and market sec (dry) */
+  .btn {
+    background: linear-gradient(
+      -90deg,
+      rgba(124, 28, 128, 0.66) 0%,
+      #ff6057 100%
+    );
+    color: white !important;
+    padding: 12px 47px;
+    border-radius: 10px;
+    text-transform: capitalize;
+  }
+
+
+
+/* number style in sec market */
+  .num {
+    padding: 9px 18px;
+    background-color: #ff6057;
+    border-radius: 50%;
+    font-family: PoppinsBold;
+    color: white;
+  }
+
+
+/* style dashbord image */
+  .landingImg {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.07 );
+  }
+  .landingImg img {
+    border-radius: 10px;
+  }

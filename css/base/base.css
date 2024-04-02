@@ -1,0 +1,50 @@
+@import url("./fonts.css");
+img {
+  width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: PoppinsBold;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  line-height: 1.9;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: PoppinsMedium;
+  color: white;
+}
+body {
+  font-family: PoppinsMedium;
+  overflow-x: hidden;
+}
+.btn {
+  text-transform: capitalize;
+}
+.m-80 {
+  margin-top: 80px;
+}
+.mt-80 {
+  margin-top: 180px;
+}
